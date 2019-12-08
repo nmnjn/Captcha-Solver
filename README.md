@@ -2,7 +2,7 @@
 A python application to solve the [SIS Portal](https://sis.manipal.edu) CAPTCHA using a custom trained model with TensorFlow and Keras.
 ___
 
-####Tools
+#### Tools
 - Python 3
 - OpenCV
 - Keras
@@ -10,13 +10,13 @@ ___
 
 #### Installation
 
-######Download the Source Code
+###### Download the Source Code
 ```
 git clone https://github.com/naman17/Captcha-Solver.git
 (or download the zip)
 ```
 
-######Install the Requirements
+###### Install the Requirements
 ```
 cd Captcha-Solver
 pip install -r requirements.txt
@@ -32,17 +32,17 @@ make download
 ```
 make extract-data
 ```
-######Step 2 -  Training the Model:
+###### Step 2 -  Training the Model:
 ```
 make train-model
 ```
 
-######(Optional) To test the Script with a URL:
+###### (Optional) To test the Script with a URL:
 ```
 make captcha-test
 ```
 
-######(Optional) To start a server:
+###### (Optional) To start a server:
 ```
 make server
 ```
@@ -59,7 +59,7 @@ _As a proof of concept you can test the script on `http://68.183.81.48:9999/capt
 
 ---
 
-######(Optional) To clear all the datasets and model generated :
+###### (Optional) To clear all the datasets and model generated :
 ```
 make clean
 ```
