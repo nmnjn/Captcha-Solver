@@ -47,7 +47,8 @@ make captcha-test
 make server
 ```
 
-The server will start on `localhost:5000`, to test the server send a `get` request on `/solve?url=<append-url-here>`
+The server will start on `localhost:5000`.
+To test the server send a `get` request on `/solve?url=<append-url-here>`
 
 <br>
 
@@ -63,3 +64,18 @@ _As a proof of concept you can test the script on `http://68.183.81.48:9999/capt
 ```
 make clean
 ```
+<br>
+
+### Running with Docker
+```
+docker build -t sis-captcha-solver .
+```
+
+```
+docker run --rm -it -p 5000:5000 sis-captcha-solver
+```
+
+The server will start on localhost:5000. 
+To test the server send a get request on `/solve?url=<append-url-here>`
+
+---
