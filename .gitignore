@@ -110,6 +110,14 @@ ENV/
 env.bak/
 venv.bak/
 
+
+# Datasets
+extractedLetters/
+downloadedCaptchas/
+Data/
+*.dat
+*.hdf5
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -127,3 +135,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
