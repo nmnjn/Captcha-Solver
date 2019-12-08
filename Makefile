@@ -11,6 +11,4 @@ train:
 captcha:
 	python app.py
 server:
-	pip install flask
-	pip install gunicorn
 	gunicorn --bind 0.0.0.0:5000 server:app
