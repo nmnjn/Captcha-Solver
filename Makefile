@@ -4,11 +4,11 @@ clean:
 	rm labels.dat
 download:
 	python captchaDownloader.py
-extract:
+extract-data:
 	python Helpers/lettersExtractor.py
-train:
+train-model:
 	python modelTrainer.py
-captcha:
+captcha-test:
 	python app.py
 server:
 	gunicorn --bind 0.0.0.0:5000 server:app
