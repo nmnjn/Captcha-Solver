@@ -52,7 +52,7 @@ To test the server send a `get` request on `/solve?url=<append-url-here>`
 
 <br>
 
-_As a proof of concept you can test the script on `http://68.183.81.48:9999/captcha?url=` by appending the CAPTCHA Image URL from the [SIS Portal](https://sis.manipal.edu)._
+_As a proof of concept you can test the script on `http://68.183.81.48:5000/solve?url=` by appending the CAPTCHA Image URL from the [SIS Portal](https://sis.manipal.edu)._
 
 
 ![](/img/first.png)
