@@ -5,3 +5,4 @@ imutils==0.5.3
 opencv-python==4.1.2.30
 sklearn==0.0
 tensorflow==2.0.0
+flask-profiler
