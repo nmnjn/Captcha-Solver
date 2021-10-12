@@ -2,6 +2,6 @@ Flask==1.1.1
 Keras==2.3.1
 gunicorn==20.0.4
 imutils==0.5.3
-opencv-python==4.1.2.30
+opencv-python==4.2.0.32
 sklearn==0.0
 tensorflow==2.0.1
